@@ -40,6 +40,13 @@ body.dark-theme {
     border-color: #0a8020; /* Color del borde en modo claro */
 }
 
+body .btn {
+    background-color: #0a8020; /* Color de fondo en modo oscuro */
+    color: #ffffff; /* Color de texto en modo oscuro */
+    border-color: #0a8020; /* Color del borde en modo oscuro */
+}
+
+
 /* Estilo para los botones en modo oscuro */
 body.dark-theme .btn {
     background-color: #0a8020; /* Color de fondo en modo oscuro */
