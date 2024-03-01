@@ -20,3 +20,72 @@
 }
 
 
+/* Estilos normales */
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Estilos para el modo oscuro */
+body.dark-theme {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+
+/* Estilo normal para los botones */
+.btn {
+    background-color: #0a8020; /* Color de fondo en modo claro */
+    color: #ffffff; /* Color de texto en modo claro */
+    border-color: #0a8020; /* Color del borde en modo claro */
+}
+
+/* Estilo para los botones en modo oscuro */
+body.dark-theme .btn {
+    background-color: #0a8020; /* Color de fondo en modo oscuro */
+    color: #ffffff; /* Color de texto en modo oscuro */
+    border-color: #0a8020; /* Color del borde en modo oscuro */
+}
+
+body.dark-theme footer  {
+    color: #ffffff; /* Color del texto en modo oscuro */
+}
+
+/* Estilo para el contenido debajo del navbar en modo oscuro */
+body.dark-theme header .container span {
+    color: #ffffff; /* Color del texto en modo oscuro */
+}
+
+/* Mejora de la presentación del contenido debajo del navbar */
+header .container {
+    text-align: center;
+}
+
+header .container span {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+
+
+/* Estilo para el texto dentro de las columnas del footer en modo oscuro */
+body.dark-theme footer a,
+body.dark-theme footer p,
+body.dark-theme footer h5 {
+    color: #ffffff; /* Color del texto en modo oscuro */
+}
+
+/* Agrega estas reglas para centrar la barra de navegación */
+.navbar-nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-nav .nav-item {
+    text-align: center;
+}
+
+.navbar-nav .nav-link {
+    padding: .5rem 1rem;
+}
